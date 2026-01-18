@@ -86,3 +86,16 @@ header {
     )
   );
 }
+
+/* banner style */
+
+.banner{
+
+
+  max-width: 1600px ;
+  height: 760px;
+  background-image: url(/assets/hero-bg.png);
+}
+.hero-circle{
+  margin: 0 auto;
+}
