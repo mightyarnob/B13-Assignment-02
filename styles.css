@@ -208,9 +208,97 @@ header {
 
 .grid-card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
 
+  gap: 30px;
+  grid-template-areas:
+    'audio mobile mobile'
+    'audio global global '
+    'interview interview resource';
+}
+
+#audio {
+  grid-area: audio;
+}
+#mobile {
+  grid-area: mobile;
+}
+#global {
+  grid-area: global;
+}
+#interview {
+  grid-area: interview;
+}
+#resource {
+  grid-area: resource;
+}
+
+.grid-feature h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.episode {
+  max-width: 1600px;
+  height: 1276px;
+  background-color: rgba(26, 11, 46, 1);
+  padding: 120px 200px 120px 200px;
+}
+
+.episode-card-1 h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.episode-card-1 {
+  border-radius: 24px;
+  background: rgba(37, 13, 68, 1);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.time p {
+  color: #00ff88;
+}
+.time {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  gap: 6px;
+}
+.episode-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 
+.episode h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.host h2 {
+  margin-top: 120px;
+}
+
+.alex-container {
+  display: flex;
+  gap: 24px;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.alex-content h3 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.alex-content p {
+  opacity: 0.6;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
