@@ -108,6 +108,12 @@ header {
   );
 }
 
+.primary-btn:hover {
+  background: #1e40af;
+  transform: translateY(-3px);
+}
+
+
 /* banner style */
 
 .banner {
@@ -167,6 +173,13 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+.btn-3:hover {
+  background: #1e40af;
+  transform: translateY(-3px);
+}
+
+
 .badge button {
   background-color: #00ff88;
   color: #1a0b2e;
@@ -183,6 +196,15 @@ header {
   font-size: 18px;
   font-weight: 600;
 }
+
+
+.badge button:hover {
+  background: #1e40af;
+  transform: translateY(-3px);
+}
+
+
+
 
 .prodcast {
   max-width: 1600px;
@@ -374,6 +396,7 @@ footer {
 }
 .footer-icon a {
   text-decoration: none;
+  color: rgba(250, 250, 250, 1);
 }
 
 .footer-container p {
