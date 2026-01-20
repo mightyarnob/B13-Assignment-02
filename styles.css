@@ -43,6 +43,32 @@
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
+  display: flex;
+  
+
+}
+
+
+.nav-menu{
+
+width: 100%;
+
+}
+
+#brand-logo{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+ width: 100%;
+ padding: 4px 20px;
+
+  
+}
+
+.hamburger {
+  height: 28px;
+  cursor: pointer;
+  display: none; 
 }
 
 .nav-link {
@@ -395,7 +421,7 @@ gap: 20px;
 flex: 0 0 calc(50% - 10px);
 }
 
-.episode-container, .alex-container, 
+.episode-container, .alex-container, .episode-container
 {
   flex-direction: column;
   
@@ -451,6 +477,64 @@ margin-top: 40px;
     ;
 }
 
+.heading-1, .banner-content h2, .prodcast-content h2{
+
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+
+
+.hero-circle {
+  
+  margin-left: 50px;
+  
+}
+
+
+
+.mike {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 175px;
+}
+
+.badge button {
+  
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 121px;
+  
+}
+
+.nav-menu, .primary-btn{
+  display: none;
+}
+
+.hamburger {
+    display: block; 
+  }
+
+#prodcast-content{
+  padding: 5px;
+}
+
+#prodcast-content p{
+
+  padding: 5px;
+}
+
+.review-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+margin-left: 60px;
+
+
+}
 
   }
   
