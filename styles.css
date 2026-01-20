@@ -299,13 +299,22 @@ header {
   font-weight: 700;
 }
 
+.alex-icon img{
+
+  border: 1px solid rgba(83, 60, 114, 1);
+  border-radius: 50px;
+  padding: 2px;
+  
+  
+}
+
 .alex-content p {
   opacity: 0.6;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-.footer {
+footer {
   max-width: 1600px;
   width: 100%;
   height: 412px;
@@ -318,6 +327,9 @@ header {
 .footer-logo img {
   margin-top: 150px;
   margin-left: 520px;
+
+
+
 }
 
 .footer-icon ul {
@@ -347,3 +359,98 @@ header {
   text-align: center;
   margin-top: 30px;
 }
+
+.hide{
+  display: none;!important
+}
+
+@media screen and (max-width:576px) {
+
+  .footer-logo img{
+    width: 50%;
+  margin-top: 40px;
+  margin-left: 110px;
+  }
+
+  .footer-container{
+
+ 
+   
+   height: auto;
+  
+    background-image: url(assets/Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-icon ul{
+  
+flex-wrap: wrap;
+gap: 20px;
+  
+}
+.footer-icon li{
+  
+flex: 0 0 calc(50% - 10px);
+}
+
+.episode-container, .alex-container, 
+{
+  flex-direction: column;
+  
+}
+
+.episode{
+  padding: 2px;
+  height: auto;
+}
+
+.alex-content h3{
+
+  text-align: center;
+}
+.alex-content p{
+
+  text-align: center;
+}
+
+.alex-icon {
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+
+.episode h2{
+font-size: 2rem;
+margin-top: 40px;
+}
+
+.feature{
+  padding: 5px;
+ 
+}
+
+#audio, #mobile {
+  display: ;
+
+ 
+}
+.grid-card-container {
+
+
+  grid-template-areas:
+    "audio"
+    "mobile"
+    "global"
+    "interview"
+    "resource"
+    ;
+}
+
+
+  }
+  
